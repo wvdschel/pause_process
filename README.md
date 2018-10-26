@@ -11,3 +11,11 @@ Why?
 I enjoy playing Monster Hunter: World, but the game doesn't have a pause function,
 even when playing single player offline. Using this program, I am able to suspend
 the game when I urgently need to deal with a crying baby :)
+
+Limitations
+===========
+
+- This program suspends all threads from the process that created the active window
+  handle, and hides that window handle. Multi-window applications or multi-process
+  applications will not be suspended correctly.
+
